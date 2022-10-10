@@ -1,11 +1,8 @@
 # Hosting a Full-Stack Application
-###Circle Ci
-<img 
-src="/documentation/pipeline-passed.png"
-raw=true
-alt=“Subject Pronouns”
-style=“margin-right: 10px;”
-/>
+
+### Circle Ci
+
+
 
 
 ### Dependencies
