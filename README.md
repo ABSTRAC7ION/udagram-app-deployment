@@ -1,6 +1,40 @@
-# Hosting a Full-Stack Application
+# Hosting a Full-Stack Application Project For Udacity Course
 
-### Circle Ci
+### Circle Ci passed status
+
+![alt text](https://github.com/ABSTRAC7ION/udagram-app-deployment/blob/master/documentation/pipeline-passed.png?raw=true)
+
+
+### S3 policy
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::udagramudacity/*"
+        }
+    ]
+}
+
+```
+
+### Description
+
+This project is a deployment process project for udacity web development advanced track. It utilizes AWS S3, AWS RDS, AWS ElasticBeanstalk, and Circle Ci for automatic deployment
+
+### AWS CLI
+<a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html" target="_blank">AWS CLI DOCS</a>
+
+### Configuring AWS CLI
+
+```
+aws configure
+```
+<a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html" target="_blank">AWS CLI DOCS</a>
 
 
 
